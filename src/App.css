@@ -46,7 +46,26 @@
   justify-content: center;
   margin-top: 10px;
   flex-direction: column;
+  background-color: rgb(229, 205, 239);
+  height: 300px;
+  
 }
 .boton{
 margin-top: 10px;
+}
+
+.titulo{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: larger;
+  font-weight: 800;
+}
+
+.loading{
+  font-size:xx-large;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 200px;
 }

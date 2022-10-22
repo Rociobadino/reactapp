@@ -5,7 +5,7 @@ const ItemListContainer = ({greetings}) => {
     const styles = {fontsize: '10rem', width: 'fit-content', margin: '6px'}
   return (
     <>
-    <div className='centrar'>
+    <div className='centrar titulo'>
     <h2 style= {styles}>{greetings}</h2>
        </div>
     {<ItemList/>}
