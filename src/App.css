@@ -50,6 +50,16 @@
   height: 300px;
   
 }
+
+.caja2{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  flex-direction: column;
+  background-color: rgb(229, 205, 239);
+  height: 450px;
+}
 .boton{
 margin-top: 10px;
 }
@@ -68,4 +78,10 @@ margin-top: 10px;
   display: flex;
   align-items: center;
   margin-top: 200px;
+}
+.carrito{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }

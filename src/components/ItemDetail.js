@@ -35,7 +35,7 @@ const ItemDetail = () => {
         }
      
   return (
-    <div className='caja' >
+    <div className='caja2' >
     <div>Detalle del producto : </div>
     <div> {product.name}</div>
     <div> ${product.price}</div>

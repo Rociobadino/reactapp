@@ -47,7 +47,7 @@ const ItemList = () => {
     <div>
         {loading ? <h1 className='loading'> Trayendo productos...</h1>
         :
-        products.map ( p =><Card key={p.id} {...p}/> )
+        products.map ( p =><Card  key={p.id} {...p}/> )
         }
     </div>
   )
