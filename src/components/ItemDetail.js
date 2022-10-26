@@ -29,6 +29,10 @@ const ItemDetail = () => {
 
         }
 
+        // const addHandler = (quantity) => {
+        //     addToCart ({product,quantity})
+        //     }
+
         const addHandler = () => {
             addToCart (product)
 
@@ -43,6 +47,7 @@ const ItemDetail = () => {
     <img className= 'foto' src= {product.img} />
     <Link to='/cart'>
     <button onClick={addHandler}className='btn boton'> Agregar al carrito </button>
+    {/* <button onClick={()=>addHandler(1)}className='btn boton'> Agregar al carrito </button> */}
     </Link>
     </div>
   )
