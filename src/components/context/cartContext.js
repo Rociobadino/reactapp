@@ -17,7 +17,7 @@ const useCart = () => {
  
   const CartContextProvider = ({children}) => {
 
-       const [products, setProducts] = useLocalStorage('products',[])
+       const [products, setProducts] = useLocalStorage('productos',[])
 
        const addToCart = (product) => { 
         setProducts (products =>  [...products, product])
@@ -32,6 +32,7 @@ const useCart = () => {
         addToCart:addToCart,
         clearCart: clearCart,
         count: products.length
+
     }
 
    return (

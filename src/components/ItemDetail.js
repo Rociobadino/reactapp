@@ -33,10 +33,13 @@ const ItemDetail = () => {
         //     addToCart ({product,quantity})
         //     }
 
-        const addHandler = () => {
-            addToCart (product)
+        // const addHandler = () => {
+        //     addToCart (product)
 
-        }
+        // }
+        const addHandler = () => {
+            addToCart({...product,quantity:1})
+            }
      
   return (
     <div className='caja2' >
